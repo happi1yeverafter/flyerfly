@@ -79,7 +79,7 @@ DATABASES = {
         'NAME': 'flyerfly',
         'USER': 'root',
         'PASSWORD': 'admin',
-        'HOST': '172.18.0.3',
+        'HOST': 'db',
         'PORT': '3306',
         'OPTION': {
             'init_command': 'SET sql_mode="STRICT_TRANS_TABLES"'

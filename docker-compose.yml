@@ -6,11 +6,11 @@ services:
     restart: always
     environment:
       MYSQL_DATABASE: "flyerfly"
-      MYSQL_USER: "flyerfly"
+      MYSQL_USER: "admin"
       MYSQL_PASSWORD: "admin"
       MYSQL_ROOT_PASSWORD: "admin"
     ports:
-      - 13306:3306
+      - 3306:3306
     security_opt:
       - seccomp:unconfined
 
